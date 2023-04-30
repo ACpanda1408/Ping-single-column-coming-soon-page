@@ -1,4 +1,75 @@
-html {
-  height: 100%;
-  width: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap');
+
+:root{
+  --blue: hsl(223, 87%, 63%);
+}
+body{
+  font-family: 'Libre Franklin', sans-serif;
+  height: 95vh;
+  text-align: center;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  margin: 70px 0 50px 0;
+}
+span{
+  opacity: .6;
+  font-weight: 400;
+}
+#form{
+  display: flex;
+  justify-content: center;
+}
+input{
+  width: 250px;
+  border:  hsl(223, 100%, 88%) 1px solid;
+  border-radius: 20px;
+  padding: 13px 13px;
+}
+button{
+  margin-top: 10px;
+  width: 280px;
+  border-radius: 20px;
+  padding: 13px 13px;
+  color: white;
+  background-color: var(--blue);
+  border: none;
+  box-shadow: var(--blue) 0px 3px 8px;
+  margin-bottom: 60px;
+}
+form > *{
+  display: block;
+}
+.illustration{
+  display: flex;
+  justify-content: center;
+}
+.illustration > img{
+  width: 90%;
+}
+.blue-color{
+  color: var(--blue)
+}
+.icons > div{
+  display: flex;
+  justify-content: space-around;
+  width: 100px;
+}
+.icons{
+  display: flex;
+  justify-content: center;
+}
+.icon{
+  border: hsl(0, 0%, 59%) solid .5px;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer{
+  margin-top: 200px;
+  padding-bottom: 20px;
 }
