@@ -22,9 +22,10 @@
   
   <div id='form'>
   <form>
-    <input type='email' placeholder='Your email address'>
-    <button>Notify me</button>
-  </form>
+  <input type='email' placeholder='Your email address' id='email' onkeydown='validation()'>
+  <label for='email' id='label'></label>
+  <button>Notify me</button>
+</form>
   </div>
   
   <div class='illustration'>
@@ -46,5 +47,6 @@
   </div>
   <h6>&copy; Copyright Ping. All rights reserved.</h6>
   </footer>
+  <script src='script.js'></script>
 </body>
 </html>
